@@ -1,0 +1,72 @@
+Running 0_0_coconut_juice_finished_on_counter
+Running 0_1_coconut_juice_ingredient_on_counter
+Running 0_2_coconut_juice_ingredient_storage
+Running 0_3_coconut_juice_hard_to_reach_storage
+Running 1_0_fruit_parfait_salad_on_counter
+Running 1_1_fruit_parfait_chopped_on_counter
+Running 1_2_fruit_parfait_partially_chopped
+Running 1_3_fruit_parfait_ingredients_on_counter
+Running 1_4_fruit_parfait_ingredients_in_storage
+Running 2_0_cheeseburger_processed
+Running 2_1_cheeseburger_partially_processed
+Running 2_2_cheeseburger_from_scratch
+Running 0_0_burger_parallel_stations_2p
+Running 0_1_burger_shared_stations_2p
+Running 0_2_burger_divided_storages_one_side_2p
+Running 0_3_cheeseburger_divided_pass_through_2p
+Running 1_0_sushi_shared_stations_2p
+Running 1_1_sushi_parallel_stations_4p
+Running 1_2_sushi_divided_3p
+Running 1_3_sushi_four_divided_4p
+Running 2_0_chicken_and_chips_shared_stations_2p
+Running 2_1_chicken_and_chips_parallel_stations_4p
+Running 2_2_chicken_and_chips_divided_3p
+Running 2_3_chicken_and_chips_four_divided_4p
+Running 0_0_black_forest_cake_shared_stations_2p
+Running 0_1_black_forest_cake_parallel_stations_4p
+Running 0_2_black_forest_cake_divided_3p
+Running 0_3_black_forest_cake_four_divided_4p
+Running 1_0_cheeseburger_dish_pit_2p
+Running 1_1_black_forest_cake_mid_service_2p
+Running 2_0_black_forest_cake_slow_oven_2p
+Running 2_1_burger_burning_2p
+Running 3_0_sushi_rush_hour_3p
+Running 3_1_serve_in_order_2p
+Running 4_0_black_forest_cake_out_of_stock_2p
+Running 4_1_black_forest_cake_wrong_room_3p
+0_0_black_forest_cake_shared_stations_2p                completed  score=122 
+0_0_burger_parallel_stations_2p                         completed  score=107 
+0_0_coconut_juice_finished_on_counter                   completed  score=50 
+0_1_black_forest_cake_parallel_stations_4p              completed  score=121 
+0_1_burger_shared_stations_2p                           completed  score=107 
+0_1_coconut_juice_ingredient_on_counter                 completed  score=51 
+0_2_black_forest_cake_divided_3p                        completed  score=124 
+0_2_burger_divided_storages_one_side_2p                 completed  score=108 
+0_2_coconut_juice_ingredient_storage                    completed  score=52 
+0_3_black_forest_cake_four_divided_4p                   gave_up    score=62 
+0_3_cheeseburger_divided_pass_through_2p                completed  score=112 
+0_3_coconut_juice_hard_to_reach_storage                 completed  score=52 
+1_0_cheeseburger_dish_pit_2p                            completed  score=169 
+1_0_fruit_parfait_salad_on_counter                      completed  score=51 
+1_0_sushi_shared_stations_2p                            completed  score=111 
+1_1_black_forest_cake_mid_service_2p                    completed  score=111 
+1_1_fruit_parfait_chopped_on_counter                    completed  score=52 
+1_1_sushi_parallel_stations_4p                          completed  score=222 
+1_2_fruit_parfait_partially_chopped                     completed  score=54 
+1_2_sushi_divided_3p                                    completed  score=112 
+1_3_fruit_parfait_ingredients_on_counter                completed  score=54 
+1_3_sushi_four_divided_4p                               completed  score=112 
+1_4_fruit_parfait_ingredients_in_storage                completed  score=56 
+2_0_black_forest_cake_slow_oven_2p                      completed  score=182 
+2_0_cheeseburger_processed                              completed  score=52 
+2_0_chicken_and_chips_shared_stations_2p                completed  score=112 
+2_1_burger_burning_2p                                   gave_up    score=113 
+2_1_cheeseburger_partially_processed                    completed  score=54 
+2_1_chicken_and_chips_parallel_stations_4p              completed  score=224 
+2_2_cheeseburger_from_scratch                           completed  score=56 
+2_2_chicken_and_chips_divided_3p                        completed  score=112 
+2_3_chicken_and_chips_four_divided_4p                   completed  score=112 
+3_0_sushi_rush_hour_3p                                  completed  score=166 
+3_1_serve_in_order_2p                                   completed  score=63 
+4_0_black_forest_cake_out_of_stock_2p                   gave_up    score=122 
+4_1_black_forest_cake_wrong_room_3p                     completed  score=122
