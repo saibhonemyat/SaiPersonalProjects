@@ -4,7 +4,7 @@
 
 **AI Engineer · Master of Artificial Intelligence @ Monash University**
 
-*I like to build real AI systems that actually work, not just things that look good on paper.*
+*I like to build real AI systems that actually work*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhone-myat-naing-sai)
 [![Email](https://img.shields.io/badge/Email-simonsaiphone%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:simonsaiphone@gmail.com)
