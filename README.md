@@ -28,7 +28,7 @@
 
 | Project | Description | Key Result |
 |---|---|---|
-| 🍳 [Too Many Chefs Planner](https://github.com/saibhonemyat/SaiPersonalProjects/tree/main/too-many-chefs-planner) | Multi-agent PDDL planner where up to 4 chefs cook together, with makespan local search and race-free parallel execution | 36/36 kitchens completed, score 3662 → 4076, 717–0 best 2v2 win |
+| 🍳 [Too Many Chefs Planner](./too-many-chefs-planner ) | Multi-agent PDDL planner where up to 4 chefs cook together, with makespan local search and race-free parallel execution | 36/36 kitchens completed, score 3662 → 4076, 717–0 best 2v2 win |
 | 🤝 [Multi-Agent Coordination](./multi-agent-coordination) | Four agents learn to coordinate on a 5x5 grid using a shared Double-DQN policy and 3-phase curriculum | 94.8% success rate, 0 collisions across 500 trials |
 | 🎮 [Pacman Pathfinding](./pacman-pf) | Hybrid PDDL and Q-learning agent for competitive multi-agent Pac-Man | 100% win rate vs staff baseline, +4.95 avg winning margin |
 | 🚆 [Railway MAPF](./railway-mapf) | Multi-agent path finding for trains with dynamic malfunction replanning | 3 planners: greedy, time-space A*, prioritised planning |
