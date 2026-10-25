@@ -96,9 +96,9 @@ flowchart LR
 
 Each planning cycle builds a classical planning task
 
-$$
+```math
 \Pi = \langle F,\ A,\ s_0,\ G \rangle
-$$
+```
 
 - $F$: facts, such as `(holding chef food)`, `(food_at tile food)`, `(reach chef tile)`
 - $A$: task-level actions (pick up, place, chop, cook, plate, deliver)
@@ -111,9 +111,9 @@ A plan is a sequence $\pi = \langle a_1, \dots, a_n \rangle$, where each $a_k \i
 
 Let $O$ be the visible orders, $t$ the current tick, $\ell_o$ the deadline of order $o$ and $\hat{T}(o)$ an estimate of the ticks needed to cook it. We plan
 
-$$
+```math
 O^{*} = \text{the } k \text{ most urgent orders in } \lbrace\, o \in O \mid o \text{ is makeable},\ t + \hat{T}(o) \le \ell_o \,\rbrace
-$$
+```
 
 with $k \le 3$ and at most about 14 recipe steps in total, so the solver stays fast.
 
@@ -121,31 +121,31 @@ with $k \le 3$ and at most about 14 recipe steps in total, so the solver stays f
 
 With $d(p, q)$ the walking distance, chef $i$ at position $p_i$ only sees storages of food $f$ with
 
-$$
+```math
 d(p_i, s) \le \min_{s'} d(p_i, s') + \delta
-$$
+```
 
 where the minimum is over storages $s'$ of food $f$ and $\delta$ is a small slack. For two chef areas $R_i$ and $R_j$, the hand-off counter is
 
-$$
+```math
 h_{ij} = \arg\min_{x \in R_i \cap R_j} \big( d(p_i, x) + d(p_j, x) \big)
-$$
+```
 
 ### 4. Action elimination
 
-$$
+```math
 \pi \setminus a_k \text{ is valid and reaches } G \ \Rightarrow\ \pi \leftarrow \pi \setminus a_k
-$$
+```
 
 ### 5. Makespan estimate
 
-$$
+```math
 S_k = \max \Big( E_{\text{prev}(k)} + d\big(\text{pos}_{\text{prev}(k)}, \text{pos}_k\big),\ \max_{j \in \text{dep}(k)} E_j \Big)
-$$
+```
 
-$$
+```math
 E_k = S_k + \tau(a_k), \qquad M(\pi) = \max_k E_k
-$$
+```
 
 - $\text{prev}(k)$: the chef's previous step
 - $\text{dep}(k)$: earlier steps by other chefs that $a_k$ needs, for example food passed on a counter
@@ -155,29 +155,30 @@ $$
 
 Moves $m$ reassign a step to another chef, move a job, or reorder how a plate collects its parts (hill climbing):
 
-$$
+```math
 \pi \leftarrow m(\pi) \quad \text{if } m(\pi) \text{ is valid and } M\big(m(\pi)\big) < M(\pi)
-$$
+```
 
 ### 7. Race-free rounds
 
 Let $\text{obj}(a)$ be the counters and stations step $a$ touches. Chef $i$'s queue is cut before the first step $a_k$ where
 
-$$
+```math
 \exists\, j < k:\ c(a_j) \ne c(a_k) \ \land\ \text{obj}(a_j) \cap \text{obj}(a_k) \ne \emptyset
-$$
+```
 
 and $a_j$ is not yet done. Inside a round, no two chefs use the same object out of plan order.
 
 ### 8. Receding horizon
 
-$$
+```math
 \text{replan} \iff \text{round done} \ \lor\ O_t \ne O_{t-1} \ \lor\ \text{no chef moved for } N \text{ ticks}
-$$
+```
 
 with $N = 15$ in Levels 1–3 and $N = 12$ in the 2v2 match.
 
 </details>
+
 
 ---
 
