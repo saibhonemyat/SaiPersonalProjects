@@ -89,9 +89,6 @@ flowchart LR
 
 ## 📐 Theory
 
-<details>
-<summary><b>Click to expand the maths behind the planner</b></summary>
-
 ### 1. Planning problem
 
 Each planning cycle builds a classical planning task
@@ -176,8 +173,6 @@ and $a_j$ is not yet done. Inside a round, no two chefs use the same object out 
 ```
 
 with $N = 15$ in Levels 1–3 and $N = 12$ in the 2v2 match.
-
-</details>
 
 
 ---
