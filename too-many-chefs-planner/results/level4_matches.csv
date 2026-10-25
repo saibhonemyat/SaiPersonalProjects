@@ -1,7 +1,0 @@
-opponent,our_team,their_team,games,missed_ticks,errors,source
-example x2,717,0,2,0,0,Mac (Fast Downward)
-example x2 (our chef + example teammate),439,0,2,0,0,Mac (Fast Downward)
-own baseline (mirror),314,384,2,0,0,Mac (Fast Downward)
-previous version (set 1),252,190,2,0,0,test env
-previous version (set 2),303,175,2,0,0,test env
-previous version (set 3),270,181,2,0,0,test env
